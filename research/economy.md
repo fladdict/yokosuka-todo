@@ -6,10 +6,10 @@
 
 | 事実(数値・年次) | 出典URL | 信頼度 |
 |---|---|---|
-| 日産自動車は2025年7月15日、追浜工場(横須賀市)の車両生産を2027年度末に終了し日産九州(福岡県苅田町)へ移管すると発表。従業員約2,400人。子会社・日産車体湘南工場も2026年度までに生産終了 | https://www.city.yokosuka.kanagawa.jp/4421/nagekomi/20250716_nissanjidousha.html | 高 |
+| 日産自動車は2025年7月15日、追浜工場(横須賀市)の車両生産を2027年度末に終了し日産自動車九州(福岡県苅田町)へ移管すると発表。従業員約2,400名。子会社・日産車体の湘南工場に委託するNV200の生産も2026年度に終了予定 | https://global.nissannews.com/ja-JP/releases/250715-01-j | 高 |
 | 横須賀市は発表翌日の2025年7月16日に庁内緊急対策会議を開催し、市役所・商工会議所に特別相談窓口を設置 | https://www.city.yokosuka.kanagawa.jp/4402/soudan/nissan_soudan.html | 高 |
-| 追浜地区の総合研究所・テストコース「GRANDRIVE」、衝突試験場、追浜専用ふ頭の機能は継続予定 | https://www.city.yokosuka.kanagawa.jp/4421/nagekomi/20250716_nissanjidousha.html | 高 |
-| 跡地(東京ドーム約36個分)を巡り、鴻海精密工業との共同生産案、データセンター、防衛省による取得案(艦艇整備拠点)などが報道。いずれも2026年6月時点で未決定 | https://facta.co.jp/article/202509012.html / https://www.kanaloco.jp/news/economy/article-1219762.html | 中 |
+| 追浜地区の総合研究所・テストコース「GRANDRIVE」、衝突試験場、追浜専用ふ頭の機能は継続予定 | https://global.nissannews.com/ja-JP/releases/250715-01-j | 高 |
+| 跡地(東京ドーム約36個分=FACTA記事の記載)を巡り、鴻海精密工業との共同生産案、データセンター、防衛省による取得案(艦艇整備拠点)などが報道。いずれも2026年6月時点で未決定。※跡地利用案・面積はFACTA一誌が主な情報源(単一ソース) | https://facta.co.jp/article/202509012.html / https://www.kanaloco.jp/news/economy/article-1219762.html | 中 |
 | 地元・追浜商店街では「あと2年したらウチも閉店かな」という不安の声(東京新聞2025年) | https://www.tokyo-np.co.jp/article/421153 | 中 |
 | 住友重機械工業浦賀工場(起源は1897年の浦賀船渠)は2003年3月閉鎖。2000年前後には関東自動車工業横須賀工場、日産久里浜エンジン工場も生産停止 | https://www.shi.co.jp/sumijuyokosukakogyo/history.html | 高 |
 | 住友重機械マリンエンジニアリング(横須賀造船所)は2024年2月に新造船事業からの撤退を正式決定。洋上風力発電事業等へ転換 | https://trafficnews.jp/post/131127 / https://newswitch.jp/p/41441 | 中 |

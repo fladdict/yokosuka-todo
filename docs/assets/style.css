@@ -19,7 +19,16 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+
+/* キーボード操作 */
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.skip-link {
+  position: absolute; left: -9999px; top: 0; z-index: 100;
+  background: var(--accent); color: #1d2733; padding: .5rem 1rem; border-radius: 0 0 8px 0;
+  text-decoration: none; font-weight: 700;
+}
+.skip-link:focus { left: 0; }
 body {
   margin: 0;
   font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
@@ -45,12 +54,13 @@ a:hover { opacity: .8; }
 .site-header nav { display: flex; gap: 1rem; flex-wrap: wrap; }
 .site-header nav a { color: #d8e4ee; text-decoration: none; font-size: .9rem; }
 .site-header nav a:hover { color: #fff; }
+.site-header nav a[aria-current="page"] { color: #fff; border-bottom: 2px solid var(--accent); }
 
 /* ===== レイアウト ===== */
 main { max-width: var(--maxw); margin: 0 auto; padding: 1.5rem 1.2rem 4rem; }
 .hero { padding: 2.2rem 0 1rem; }
 .hero h1 { font-size: 1.6rem; line-height: 1.6; margin: 0 0 1rem; }
-.hero .benchmark {
+.benchmark {
   display: inline-block; background: var(--navy-soft); color: var(--navy);
   border-left: 4px solid var(--navy);
   padding: .6rem 1rem; border-radius: 0 var(--radius) var(--radius) 0;
@@ -76,10 +86,10 @@ h3 { font-size: 1.05rem; margin-top: 1.8rem; }
 .card p { margin: 0; font-size: .86rem; color: var(--ink-soft); line-height: 1.7; }
 .card .meta { display: flex; flex-wrap: wrap; gap: .6rem; font-size: .78rem; color: var(--ink-soft); margin-top: auto; padding-top: .5rem; }
 
-/* 緊急度・深刻度の● */
+/* 緊急度・深刻度の●(offは色だけに頼らず濃いめのグレーで可視化) */
 .dots { letter-spacing: .1em; }
 .dots .on { color: var(--warn); }
-.dots .off { color: var(--line); }
+.dots .off { color: #8a99a8; }
 
 .tag {
   display: inline-block; background: var(--bg-soft); border: 1px solid var(--line);
@@ -104,11 +114,12 @@ h3 { font-size: 1.05rem; margin-top: 1.8rem; }
   background: var(--navy-soft); border-radius: var(--radius);
   padding: 1rem 1.2rem; margin: 1.2rem 0;
 }
+.summary-box h2 { border: none; margin: 0; padding: 0; font-size: 1.05rem; }
 .summary-box .metaphor {
   margin-top: .6rem; padding-top: .6rem; border-top: 1px dashed var(--navy);
   font-size: .92rem;
 }
-.summary-box .metaphor::before { content: "💡 たとえると…"; display: block; font-weight: 700; font-size: .85rem; color: var(--navy); }
+.metaphor-label { display: block; font-weight: 700; font-size: .85rem; color: var(--navy); }
 
 /* 守り・攻めボックス */
 .guard-box, .attack-box { border-radius: var(--radius); padding: 1rem 1.2rem; margin: 1rem 0; }
@@ -161,6 +172,15 @@ blockquote {
 
 /* 用語説明 */
 .term { border-bottom: 1px dotted var(--navy); cursor: help; }
+
+/* 色付き強調(インラインstyleの置き換え用) */
+.c-guard { color: var(--guard); }
+.c-attack { color: var(--attack); }
+.c-warn { color: var(--warn); }
+.c-rec { color: #8a6d2f; }
+
+/* 出典参照リンク */
+a.src-ref { text-decoration: none; font-size: .8em; vertical-align: super; }
 
 /* ===== フッター ===== */
 .site-footer {

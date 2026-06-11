@@ -1,32 +1,33 @@
 # リサーチ: 人口・子育て・教育(2026-06-11収集)
 
-信頼度区分: 【公式統計】(国・国勢調査・住民基本台帳等)、【自治体資料】、【報道】、【その他】
+凡例:信頼度【高】=官公庁・一次資料/【中】=大手報道・業界紙/【低】=参考(要裏取り)
+※括弧内は元の細区分(公式統計=国・国勢調査・住民基本台帳等/自治体資料/報道/その他)
 
 ## 1. 人口推移とピーク、「全国ワースト」の経緯
 
 - **人口ピークは1992年5月1日の437,171人**(推計人口ベース。市資料では「1990年ごろの43万人」と表現)
-  出典: https://www.city.yokosuka.kanagawa.jp/0830/upi/hyouka/documents/04_r5kaigi_shiryo2_jinkodoko.pdf 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/0830/upi/hyouka/documents/04_r5kaigi_shiryo2_jinkodoko.pdf 【高】(自治体資料)
 - **2020年国勢調査の総人口は388,078人**(2015年比△4.6%)。2018年2月に推計人口が40万人を割り込んだ
-  出典: 同上【公式統計】
+  出典: 同上【高】(公式統計)
 - **最新の推計人口(2026年5月1日現在)は365,688人、166,393世帯**。ピーク比で約7.1万人(約16%)減
-  出典: https://www.city.yokosuka.kanagawa.jp/0830/data/toukei/suikei/now.html 【公式統計】
+  出典: https://www.city.yokosuka.kanagawa.jp/0830/data/toukei/suikei/now.html 【高】(公式統計)
 - **2013年の総務省「住民基本台帳人口移動報告」で転出超過数が全国の市町村で最多(ワースト1位)**。移動報告ベース1,772人、市集計の社会減1,587人(集計範囲が異なる2系統)
-  出典: https://www.townnews.co.jp/0501/2025/04/04/779667.html 【報道】 / https://www.city.yokosuka.kanagawa.jp/0830/shakaidoutai.html 【自治体資料】
+  出典: https://www.townnews.co.jp/0501/2025/04/04/779667.html 【中】(報道) / https://www.city.yokosuka.kanagawa.jp/0830/shakaidoutai.html 【高】(自治体資料)
 - **社人研推計(2023年12月)では2050年に約27.3万人**(2020年比△29.7%)。減少スピードは加速傾向(2000→2020年△9.3%、2020→2040年推計△20.0%)
-  出典: https://www.city.yokosuka.kanagawa.jp/0830/upi/hyouka/documents/04_r5kaigi_shiryo2_jinkodoko.pdf 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/0830/upi/hyouka/documents/04_r5kaigi_shiryo2_jinkodoko.pdf 【高】(自治体資料)
 
 ## 2. 社会減(転出超過)と若年層・子育て世代
 
 - **2025年の社会減は54人で2013年以降最少**(2013年比1,533人改善)
-  出典: https://www.city.yokosuka.kanagawa.jp/0830/shakaidoutai.html 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/0830/shakaidoutai.html 【高】(自治体資料)
 - **2024年は「30〜59歳+0〜14歳」のファミリー層が30人の転入超過に転換**。東京23区からの転入は10年で321人増
-  出典: https://www.townnews.co.jp/0501/2025/04/04/779667.html 【報道】
+  出典: https://www.townnews.co.jp/0501/2025/04/04/779667.html 【中】(報道)
 - **2025年単年では0〜14歳が245人の転入超過**。転入元は京急沿線の大田区・品川区、世田谷区が多い
-  出典: https://www.city.yokosuka.kanagawa.jp/0830/shakaidoutai.html 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/0830/shakaidoutai.html 【高】(自治体資料)
 - **近年の人口減の主因は自然減**(2022年で人口減の81.7%が自然減)
-  出典: https://www.city.yokosuka.kanagawa.jp/0830/upi/hyouka/documents/04_r5kaigi_shiryo2_jinkodoko.pdf 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/0830/upi/hyouka/documents/04_r5kaigi_shiryo2_jinkodoko.pdf 【高】(自治体資料)
 - 年代別の転出率・転入率は藤沢市・横浜市金沢区と比べ**いずれも低い**(特に30代)。「出ていく」以上に「入ってこない」構造
-  出典: 同上【自治体資料】
+  出典: 同上【高】(自治体資料)
 
 ## 3. 出生数・合計特殊出生率
 
@@ -34,44 +35,44 @@
 - **合計特殊出生率は2020年前後で1.18前後**。全国(1.33)・神奈川県(1.26)を下回る
 - **2003年に自然減へ転換**。2021年の自然減は△3,307人(死亡5,116人)
 - 出産年齢層(15〜49歳)の女性人口: 1990年108,571人 → 2020年68,135人
-  出典(いずれも): https://www.city.yokosuka.kanagawa.jp/0830/upi/hyouka/documents/04_r5kaigi_shiryo2_jinkodoko.pdf 【自治体資料/公式統計】
+  出典(いずれも): https://www.city.yokosuka.kanagawa.jp/0830/upi/hyouka/documents/04_r5kaigi_shiryo2_jinkodoko.pdf 【高】(自治体資料・公式統計)
 
 ## 4. 高齢化率
 
 - **2020年の高齢化率32.2%**(全国平均28.7%+3.5pt)。2023年時点で65歳以上約12.3万人・32.6%
 - **将来推計: 2030年35.6% → 2040年38.6% → 2050年40.5%**(内閣府白書掲載推計では2050年41.9%)
 - **高齢者「数」は2020年(約12.5万人)がピークで今後減少。だが総人口がそれ以上に減るため「率」は上がり続ける**
-  出典: 同上市委員会資料 / https://www8.cao.go.jp/kourei/whitepaper/w-2024/zenbun/pdf/1s3s_07.pdf 【公式統計】
+  出典: 同上市委員会資料 / https://www8.cao.go.jp/kourei/whitepaper/w-2024/zenbun/pdf/1s3s_07.pdf 【高】(公式統計)
 
 ## 5. 子育て支援策(近隣比較)
 
 - **小児医療費助成: 0〜18歳まで入院・通院とも自己負担なし(所得制限なし)**。横浜市の18歳まで拡大(2026年6月〜)より先行
-  出典: https://www.city.yokosuka.kanagawa.jp/3915/g_info/l100000592.html 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/3915/g_info/l100000592.html 【高】(自治体資料)
 - **中学校完全給食: 2021年9月29日に全校で開始**
-  出典: https://www.city.yokosuka.kanagawa.jp/8345/20210728.html 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/8345/20210728.html 【高】(自治体資料)
 - **小学校給食費を2026年度から無償化**(月額5,700円相当。国補助500円+市負担5,200円)
-  出典: https://www.city.yokosuka.kanagawa.jp/8345/kyuushoku/kyuusyoku-hi.html 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/8345/kyuushoku/kyuusyoku-hi.html 【高】(自治体資料)
 - **物価高対応子育て応援手当: 0〜18歳1人あたり2万円**(2025年12月補正、2026年2月支給)
-  出典: https://www.city.yokosuka.kanagawa.jp/3915/g_info/kosodateouennteate.html 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/3915/g_info/kosodateouennteate.html 【高】(自治体資料)
 
 ## 6. 学校統廃合・教育
 
 - **「横須賀市教育環境整備計画」(2022〜2029年度)** で学校再編を推進。適正規模は小学校12〜24学級
-  出典: https://www.city.yokosuka.kanagawa.jp/8115/documents/seibi.pdf 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/8115/documents/seibi.pdf 【高】(自治体資料)
 - **2025年4月に「田浦小+長浦小」「走水小+馬堀小」の2組4校が統合**
-  出典: https://www.city.yokosuka.kanagawa.jp/8115/tougou3/tougou3.html 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/8115/tougou3/tougou3.html 【高】(自治体資料)
 - **2026年3月、新たに6校(富士見小・武山小・荻野小・大楠小・鴨居小・小原台小)を再編対象に追加**
-  出典: https://www.townnews.co.jp/0501/2026/03/20/829512.html 【報道】
+  出典: https://www.townnews.co.jp/0501/2026/03/20/829512.html 【中】(報道)
 - 15歳未満人口は約3.7万人で10年前より約1.2万人減(構成比10.0%)
 
 ## 7. 総合計画・人口ビジョンの目標
 
 - **人口ビジョン(2020年改訂): 2060年に28万4千人を維持する目標**。前提は「2060年までに出生率2.07」「転出超過ゼロ」
-  出典: https://www.city.yokosuka.kanagawa.jp/0830/upi/kihonkeikaku/documents/jinkouvision_2020_3_kaitei3.pdf 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/0830/upi/kihonkeikaku/documents/jinkouvision_2020_3_kaitei3.pdf 【高】(自治体資料)
 - **YOKOSUKAビジョン2030**(2022年4月〜の最上位計画)。未来像「変化を力に進むまち。横須賀市」
-  出典: https://www.city.yokosuka.kanagawa.jp/shisei/unei/vision/index.html 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/shisei/unei/vision/index.html 【高】(自治体資料)
 - **横須賀再興プラン2026-2029**: 「海洋都市」「音楽・スポーツ・エンターテインメント都市」「個性ある地域コミュニティのある都市」の3方向性
-  出典: https://www.city.yokosuka.kanagawa.jp/shisei/unei/plan/index.html 【自治体資料】
+  出典: https://www.city.yokosuka.kanagawa.jp/shisei/unei/plan/index.html 【高】(自治体資料)
 
 ## 数値の取り扱い注意
 

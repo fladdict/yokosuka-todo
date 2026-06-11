@@ -6,25 +6,43 @@
 <meta name="description" content="{{1〜2文の課題サマリー}}">
 <title>{{課題タイトル}} | 横須賀市が先送りせず解くべき課題</title>
 <link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://fladdict.github.io/yokosuka-todo/issues/{{category}}/{{slug}}.html">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<meta property="og:site_name" content="横須賀市が先送りせず解くべき課題">
+<meta property="og:title" content="{{課題タイトル}} | 横須賀市が先送りせず解くべき課題">
+<meta property="og:description" content="{{1〜2文の課題サマリー}}">
+<meta property="og:url" content="https://fladdict.github.io/yokosuka-todo/issues/{{category}}/{{slug}}.html">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"Article","headline":"{{課題タイトル}}","description":"{{1〜2文の課題サマリー}}","datePublished":"{{YYYY-MM-DD}}","dateModified":"{{YYYY-MM-DD}}","inLanguage":"ja","mainEntityOfPage":"https://fladdict.github.io/yokosuka-todo/issues/{{category}}/{{slug}}.html","author":{"@type":"Organization","name":"横須賀市が先送りせず解くべき課題"},"publisher":{"@type":"Organization","name":"横須賀市が先送りせず解くべき課題"}},
+ {"@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"ホーム","item":"https://fladdict.github.io/yokosuka-todo/"},
+  {"@type":"ListItem","position":2,"name":"{{課題タイトル}}","item":"https://fladdict.github.io/yokosuka-todo/issues/{{category}}/{{slug}}.html"}]}]}
+</script>
 </head>
 <body>
+<a class="skip-link" href="#main">本文へとばす</a>
 <header class="site-header">
   <a class="brand" href="../../index.html">横須賀市が先送りせず解くべき課題</a>
   <nav>
     <a href="../../index.html">ホーム</a>
     <a href="../../index.html#issues">課題一覧</a>
+    <a href="../../map.html">課題マップ</a>
     <a href="../../sources.html">出典・データ</a>
     <a href="../../about.html">このサイトについて</a>
   </nav>
 </header>
-<main>
+<main id="main">
 
 <div class="issue-header">
   <p class="crumbs"><a href="../../index.html">ホーム</a> › {{カテゴリ名}}</p>
   <h1>{{課題タイトル}}</h1>
   <dl class="issue-meta">
-    <div><dt>緊急度</dt><dd class="dots"><span class="on">●●●●</span><span class="off">●</span></dd></div>
-    <div><dt>深刻度</dt><dd class="dots"><span class="on">●●●●●</span><span class="off"></span></dd></div>
+    <div><dt>緊急度</dt><dd class="dots" role="img" aria-label="5段階中4"><span class="on" aria-hidden="true">●●●●</span><span class="off" aria-hidden="true">●</span></dd></div>
+    <div><dt>深刻度</dt><dd class="dots" role="img" aria-label="5段階中5"><span class="on" aria-hidden="true">●●●●●</span></dd></div>
     <div><dt>時間軸</dt><dd><span class="timeline-chip">今すぐ</span></dd></div>
     <div><dt>最終確認</dt><dd>{{YYYY-MM-DD}}</dd></div>
   </dl>
@@ -34,14 +52,14 @@
 </div>
 
 <section class="summary-box">
-  <h2 style="border:none;margin:0;padding:0;font-size:1.05rem">一言でいうと</h2>
+  <h2>一言でいうと</h2>
   <p>{{3行以内のサマリー}}</p>
-  <p class="metaphor">{{メタファ(例え話)を1つ}}</p>
+  <p class="metaphor"><span class="metaphor-label">💡 たとえると…</span>{{メタファ(例え話)を1つ}}</p>
 </section>
 
 <section>
   <h2>いま何が起きている?</h2>
-  <p>{{数値データを実感に変換して。各数値に出典番号[1]}}</p>
+  <p>{{数値データを実感に変換して。各数値に出典参照 <a class="src-ref" href="#src1">[1]</a> の形式でアンカーリンクを付ける}}</p>
 </section>
 
 <section>
@@ -74,9 +92,9 @@
 <section>
   <h2>どう進める?</h2>
   <ol class="steps">
-    <li><span class="phase">短期(1〜2年)</span><br>{{…}}</li>
-    <li><span class="phase">中期(3〜5年)</span><br>{{…}}</li>
-    <li><span class="phase">長期(10年)</span><br>{{…}}</li>
+    <li><span class="phase">短期(1〜2年)</span><br>【実行主体: {{市の◯◯部・事業者・国など}}】{{…}}</li>
+    <li><span class="phase">中期(3〜5年)</span><br>【実行主体: {{市の◯◯部・事業者・国など}}】{{…}}</li>
+    <li><span class="phase">長期(10年)</span><br>【実行主体: {{市の◯◯部・事業者・国など}}】{{…}}</li>
   </ol>
 </section>
 
@@ -88,6 +106,19 @@
     <div class="side">{{選択肢B}}</div>
   </div>
   <p>{{両方の立場が納得できる説明}}</p>
+</section>
+
+<section>
+  <h2>KPI(効果のものさし)</h2>
+  <table>
+    <thead>
+      <tr><th>指標</th><th>現状値</th><th>5年後の目安</th><th>出典・測定頻度</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>{{指標1}}</td><td>{{現状値(出典番号[n]つき)}}</td><td>{{5年後の目安}}</td><td>{{出典・測定頻度(例: 市統計・毎月)}}</td></tr>
+      <tr><td>{{指標2}}</td><td>{{現状値(出典番号[n]つき)}}</td><td>{{5年後の目安}}</td><td>{{出典・測定頻度(例: 決算資料・年1回)}}</td></tr>
+    </tbody>
+  </table>
 </section>
 
 <section class="recommend">
@@ -110,6 +141,16 @@
 </section>
 
 <section>
+  <h2>関連課題</h2>
+  <ul class="links">
+    <li><a href="{{../category/slug.html}}">{{関連課題タイトル}}</a> — {{どうつながるか一言}}</li>
+    <li><a href="{{../category/slug.html}}">{{関連課題タイトル}}</a> — {{どうつながるか一言}}</li>
+    <li><a href="{{../category/slug.html}}">{{関連課題タイトル}}</a> — {{どうつながるか一言}}</li>
+  </ul>
+  <p><a href="../../map.html">課題マップで全体のつながりを見る</a></p>
+</section>
+
+<section>
   <h2>出典</h2>
   <ol class="sources">
     <li id="src1">{{出典名・発行年}} — <a href="{{URL}}" target="_blank" rel="noopener">{{URL}}</a></li>
@@ -122,7 +163,7 @@
 
 </main>
 <footer class="site-footer">
-  <p>本サイトはAIによる調査・執筆の評価版です。誤りのご指摘を歓迎します。判断軸:「持続可能性をもった横須賀市の発展と市民のQOLの両立」</p>
+  <p>本サイトはAIによる調査・執筆の評価版です。誤りのご指摘は<a href="https://github.com/fladdict/yokosuka-todo/issues" target="_blank" rel="noopener">GitHub Issues</a>で受け付けています。判断軸:「持続可能性をもった横須賀市の発展と市民のQOLの両立」</p>
 </footer>
 </body>
 </html>
