@@ -7,31 +7,31 @@
 
 誤った出典帰属は1件でもサイト全体の信頼を毀損するため最初に潰す。
 
-- [ ] **出典誤帰属2件の修正**: fiscal-sustainabilityの「東京ドーム約36個分」[11]→FACTAに差し替え/oppama-factoryの「約2,400人・湘南工場・継続機能」→日産公式リリースを出典に追加。**research/economy.mdの帰属も同時修正**
-- [ ] 番号なし数値の解消(oppama L48、population-declineの三浦+葉山比喩など)。全ページを「数値の直後に[n]か(計算)があるか」で機械チェック
-- [ ] 追浜跡地の各案に「FACTA単一誌の報道」である旨を注記し、確度を一段下げた表現に
-- [ ] **市民の指摘動線の設置**: 全ページフッターの「ご指摘歓迎」にGitHub Issuesへのリンクを追加。about.htmlに指摘方法を明記
+- [x] **出典誤帰属2件の修正**: fiscal-sustainabilityの「東京ドーム約36個分」[11]→FACTAに差し替え/oppama-factoryの「約2,400人・湘南工場・継続機能」→日産公式リリースを出典に追加。**research/economy.mdの帰属も同時修正**
+- [x] 番号なし数値の解消(oppama L48、population-declineの三浦+葉山比喩など)。全ページを「数値の直後に[n]か(計算)があるか」で機械チェック
+- [x] 追浜跡地の各案に「FACTA単一誌の報道」である旨を注記し、確度を一段下げた表現に
+- [x] **市民の指摘動線の設置**: 全ページフッターの「ご指摘歓迎」にGitHub Issuesへのリンクを追加。about.htmlに指摘方法を明記
 
 ## P1 — 届ける力(アクセシビリティ・発見性)
 
 市民向けサイトとして「読めない人がいる」「共有してもカードが出ない」は本質的欠陥。
 
-- [ ] ●表示のa11y修正(全ページ+雛形): `aria-label="緊急度: 5段階中4"`+●に`aria-hidden`、off側は○に変更しコントラスト確保、空spanの削除
-- [ ] OGP+canonical+favicon(SVG1枚)+JSON-LD(課題ページ=Article+BreadcrumbList、トップ=WebSite)を全ページに追加
-- [ ] sitemap.xml / robots.txt / 404.html(ナビ付き)を設置
-- [ ] スキップリンク、`:focus-visible`スタイル、`scroll-padding-top`、navの`aria-current`
-- [ ] 「💡 たとえると…」をCSS擬似要素からHTML実体に移動。出典[1]を`<a href="#src1">`のアンカーリンク化。インラインstyle 62箇所をクラスに集約
+- [x] ●表示のa11y修正(全ページ+雛形): `aria-label="緊急度: 5段階中4"`+●に`aria-hidden`、off側は○に変更しコントラスト確保、空spanの削除
+- [x] OGP+canonical+favicon(SVG1枚)+JSON-LD(課題ページ=Article+BreadcrumbList、トップ=WebSite)を全ページに追加
+- [x] sitemap.xml / robots.txt / 404.html(ナビ付き)を設置
+- [x] スキップリンク、`:focus-visible`スタイル、`scroll-padding-top`、navの`aria-current`
+- [x] 「💡 たとえると…」をCSS擬似要素からHTML実体に移動。出典[1]を`<a href="#src1">`のアンカーリンク化。インラインstyle 62箇所をクラスに集約
 
 ## P2 — パイプラインの再発防止(仕組み化)
 
 P0の誤帰属は「research/を信じてページを照合する」循環構造が原因。仕組みで断つ。
 
-- [ ] **ファクトチェック手順の強化(CLAUDE.md手順4改訂)**: ①出典URLを実フェッチし「その出典に当該数値が実際に書かれているか」まで照合(サンプル可)②信頼度【中】【低】の数値は第二ソースが無い限り「試算・報道ベース」明記を必須化
-- [ ] **scripts/check.sh の作成**: 内部リンク検査/{{}}検査/数値の出典番号検査/index・map・sourcesとissues/**の網羅性diff。CLAUDE.md手順5に組み込み
-- [ ] **GitHub Actions**: push時+週次で外部リンク125件のリンク切れ検査(lychee等)
-- [ ] **鮮度ルール**: research/の各事実に収集日+再確認周期(推計人口=毎月、決算・計画=年1回)。最終確認日はファクトチェック再実行時のみ更新可と定義
-- [ ] research/の信頼度凡例を【高】【中】【低】の1方式に統一(現在4方式混在)
-- [ ] CLAUDE.md手順5にmap.html更新を明記。templates/issue.htmlに「課題マップ」nav・関連課題セクション・KPI欄・実行主体欄を追加(ドリフト解消)
+- [x] **ファクトチェック手順の強化(CLAUDE.md手順4改訂)**: ①出典URLを実フェッチし「その出典に当該数値が実際に書かれているか」まで照合(サンプル可)②信頼度【中】【低】の数値は第二ソースが無い限り「試算・報道ベース」明記を必須化
+- [x] **scripts/check.sh の作成**: 内部リンク検査/{{}}検査/数値の出典番号検査/index・map・sourcesとissues/**の網羅性diff。CLAUDE.md手順5に組み込み
+- [x] **GitHub Actions**: push時+週次で外部リンク125件のリンク切れ検査(lychee等)
+- [x] **鮮度ルール**: research/の各事実に収集日+再確認周期(推計人口=毎月、決算・計画=年1回)。最終確認日はファクトチェック再実行時のみ更新可と定義
+- [x] research/の信頼度凡例を【高】【中】【低】の1方式に統一(現在4方式混在)
+- [x] CLAUDE.md手順5にmap.html更新を明記。templates/issue.htmlに「課題マップ」nav・関連課題セクション・KPI欄・実行主体欄を追加(ドリフト解消)
 
 ## P3 — コンテンツ品質の底上げ(全18ページ改修)
 
