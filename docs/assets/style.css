@@ -1,0 +1,177 @@
+/* yokosuka-todo 共通スタイル(1ファイルのみ・ビルド不要) */
+:root {
+  --ink: #1d2733;
+  --ink-soft: #4b5a6a;
+  --bg: #ffffff;
+  --bg-soft: #f4f7f9;
+  --line: #dde4ea;
+  --navy: #0e3a5d;      /* 横須賀=港町のネイビー */
+  --navy-soft: #e8f0f6;
+  --accent: #c8a45a;    /* 真鍮色のアクセント */
+  --guard: #2c6e49;     /* 守り=緑 */
+  --guard-bg: #ecf5ef;
+  --attack: #b3541e;    /* 攻め=オレンジ */
+  --attack-bg: #fbf0e7;
+  --warn-bg: #fdf3f3;
+  --warn: #9b3535;
+  --radius: 10px;
+  --maxw: 960px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.9;
+  font-size: 16px;
+}
+
+a { color: var(--navy); }
+a:hover { opacity: .8; }
+
+/* ===== ヘッダー ===== */
+.site-header {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: .7rem 1.2rem;
+  background: var(--navy); color: #fff;
+}
+.site-header .brand {
+  color: #fff; text-decoration: none; font-weight: 700; font-size: 1rem;
+}
+.site-header nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+.site-header nav a { color: #d8e4ee; text-decoration: none; font-size: .9rem; }
+.site-header nav a:hover { color: #fff; }
+
+/* ===== レイアウト ===== */
+main { max-width: var(--maxw); margin: 0 auto; padding: 1.5rem 1.2rem 4rem; }
+.hero { padding: 2.2rem 0 1rem; }
+.hero h1 { font-size: 1.6rem; line-height: 1.6; margin: 0 0 1rem; }
+.hero .benchmark {
+  display: inline-block; background: var(--navy-soft); color: var(--navy);
+  border-left: 4px solid var(--navy);
+  padding: .6rem 1rem; border-radius: 0 var(--radius) var(--radius) 0;
+  font-weight: 600;
+}
+.hero-note { color: var(--ink-soft); font-size: .85rem; }
+
+h2 { font-size: 1.25rem; border-bottom: 2px solid var(--line); padding-bottom: .4rem; margin-top: 2.5rem; }
+h3 { font-size: 1.05rem; margin-top: 1.8rem; }
+
+/* ===== カテゴリ・カード ===== */
+.category-block { margin-top: 2rem; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.card {
+  border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1rem 1.1rem; background: #fff;
+  display: flex; flex-direction: column; gap: .4rem;
+  transition: box-shadow .15s;
+}
+.card:hover { box-shadow: 0 4px 14px rgba(14,58,93,.12); }
+.card h3 { margin: 0; font-size: 1rem; }
+.card h3 a { text-decoration: none; }
+.card p { margin: 0; font-size: .86rem; color: var(--ink-soft); line-height: 1.7; }
+.card .meta { display: flex; flex-wrap: wrap; gap: .6rem; font-size: .78rem; color: var(--ink-soft); margin-top: auto; padding-top: .5rem; }
+
+/* 緊急度・深刻度の● */
+.dots { letter-spacing: .1em; }
+.dots .on { color: var(--warn); }
+.dots .off { color: var(--line); }
+
+.tag {
+  display: inline-block; background: var(--bg-soft); border: 1px solid var(--line);
+  border-radius: 999px; padding: 0 .6rem; font-size: .75rem; color: var(--ink-soft);
+}
+.timeline-chip { background: var(--navy-soft); color: var(--navy); border-radius: 4px; padding: 0 .5rem; font-size: .75rem; font-weight: 600; }
+
+/* ===== 課題ページ ===== */
+.issue-header { padding-top: 1.5rem; }
+.issue-header .crumbs { font-size: .82rem; color: var(--ink-soft); }
+.issue-header h1 { font-size: 1.5rem; line-height: 1.6; margin: .4rem 0 .8rem; }
+.issue-meta {
+  display: flex; flex-wrap: wrap; gap: 1.2rem; align-items: center;
+  background: var(--bg-soft); border-radius: var(--radius);
+  padding: .7rem 1rem; font-size: .85rem;
+}
+.issue-meta dt { display: inline; font-weight: 600; color: var(--ink-soft); }
+.issue-meta dd { display: inline; margin: 0 0 0 .3rem; }
+.issue-meta > div { white-space: nowrap; }
+
+.summary-box {
+  background: var(--navy-soft); border-radius: var(--radius);
+  padding: 1rem 1.2rem; margin: 1.2rem 0;
+}
+.summary-box .metaphor {
+  margin-top: .6rem; padding-top: .6rem; border-top: 1px dashed var(--navy);
+  font-size: .92rem;
+}
+.summary-box .metaphor::before { content: "💡 たとえると…"; display: block; font-weight: 700; font-size: .85rem; color: var(--navy); }
+
+/* 守り・攻めボックス */
+.guard-box, .attack-box { border-radius: var(--radius); padding: 1rem 1.2rem; margin: 1rem 0; }
+.guard-box { background: var(--guard-bg); border-left: 5px solid var(--guard); }
+.attack-box { background: var(--attack-bg); border-left: 5px solid var(--attack); }
+.guard-box h2, .attack-box h2 { border: none; margin-top: 0; padding-bottom: 0; }
+.guard-box h2 { color: var(--guard); }
+.attack-box h2 { color: var(--attack); }
+
+/* トレードオフ */
+.tradeoff { background: var(--warn-bg); border-left: 5px solid var(--warn); border-radius: var(--radius); padding: 1rem 1.2rem; margin: 1rem 0; }
+.tradeoff h2 { border: none; margin-top: 0; padding-bottom: 0; color: var(--warn); }
+.vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: .8rem; align-items: center; margin: .8rem 0; }
+.vs .side { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: .7rem .9rem; font-size: .9rem; }
+.vs .mark { font-weight: 700; color: var(--warn); }
+
+/* 推奨構成 */
+.recommend { border: 2px solid var(--accent); border-radius: var(--radius); padding: 1rem 1.2rem; margin: 1rem 0; background: #fffdf7; }
+.recommend h2 { border: none; margin-top: 0; padding-bottom: 0; color: #8a6d2f; }
+
+/* ステップ(どう進める) */
+.steps { list-style: none; padding: 0; counter-reset: step; }
+.steps > li {
+  position: relative; padding: .6rem 0 .6rem 3rem; border-left: 2px solid var(--line); margin-left: 1rem;
+}
+.steps > li::before {
+  counter-increment: step; content: counter(step);
+  position: absolute; left: -1rem; top: .7rem;
+  width: 2rem; height: 2rem; border-radius: 50%;
+  background: var(--navy); color: #fff; font-weight: 700;
+  display: flex; align-items: center; justify-content: center; font-size: .9rem;
+}
+.steps .phase { font-weight: 700; color: var(--navy); }
+
+/* テーブル */
+table { border-collapse: collapse; width: 100%; font-size: .88rem; margin: 1rem 0; }
+th, td { border: 1px solid var(--line); padding: .5rem .7rem; text-align: left; vertical-align: top; }
+th { background: var(--bg-soft); }
+
+/* データ・出典 */
+.fact { font-size: .8rem; color: var(--ink-soft); }
+.sources li, .links li { margin-bottom: .4rem; font-size: .9rem; }
+.note { font-size: .85rem; color: var(--ink-soft); }
+
+blockquote {
+  margin: 1rem 0; padding: .6rem 1rem; border-left: 4px solid var(--accent);
+  background: var(--bg-soft); border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--ink-soft); font-size: .92rem;
+}
+
+/* 用語説明 */
+.term { border-bottom: 1px dotted var(--navy); cursor: help; }
+
+/* ===== フッター ===== */
+.site-footer {
+  border-top: 1px solid var(--line); margin-top: 3rem;
+  padding: 1.5rem 1.2rem 2.5rem; text-align: center;
+  color: var(--ink-soft); font-size: .82rem;
+}
+
+@media (max-width: 640px) {
+  .site-header { flex-direction: column; align-items: flex-start; gap: .4rem; }
+  .vs { grid-template-columns: 1fr; }
+  .vs .mark { text-align: center; }
+  .issue-meta { flex-direction: column; align-items: flex-start; gap: .3rem; }
+}
