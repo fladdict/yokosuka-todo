@@ -21,6 +21,7 @@ yokosuka-todo/
 │   └── issue.html       ← 課題ページの雛形(コピーして使う)
 └── docs/                ← 公開されるサイト本体(GitHub Pages: main / docs)
     ├── index.html       ← トップ(カテゴリ別の課題カード一覧)
+    ├── map.html         ← 課題マップ(全課題の相互関係を一望)
     ├── about.html       ← サイトの目的・つくり方・免責
     ├── sources.html     ← 出典・データ集
     ├── assets/style.css
